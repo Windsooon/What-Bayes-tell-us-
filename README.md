@@ -1,5 +1,7 @@
 # What-Bayes-tell-us-
 
+[中文版本](https://github.com/Windsooon/What-Bayes-tell-us-/blob/master/README_CHINESE.md)
+
 ### If a person is infected by the disease, the probability of a positive test result will be 90%. However, if someone is not infected, there still will have 9% chances to get the positive result. We have already known that the prevalence of this disease is 1%. 
 
 ## If I am tested to be positive, what is the probability of getting a true infection?
