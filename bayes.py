@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# 全部人中，检测到阳性概率为P(A)
-# 全部人中，真正患流感概率为P(D)
-# 已患流感 阳性概率为P(A1)
-# 未患流感 阳性概率为P(A2)
-# 若阳性，则患病概率为
+# the probability of a positive test in all people is P(A)
+# the prevalence of this disease P(D)
+# the probability of a positive test result if a person is infected by the disease is P(A1)
+# the probability of a positive test result if a person is not infected by the disease is P(A2)
+# if someone was tested to be positive, the probability of getting a true infection is
 # P(D|A) = P(D, A) / P(A) = P(A|D) * P(D) / P(A)
 #
 # P(A|D) = P(A1)
