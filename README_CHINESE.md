@@ -14,11 +14,11 @@
 
 
 ## 答案
-只是 **9%**
+只是 **9%**, 问题的关键在于某种疾病在所有人中的患病率，而不单单是检验的可靠性
 
 ![90_9](https://raw.githubusercontent.com/Windsooon/What-Bayes-tell-us-/master/img/90_9.png)
 
-该病的病发率  | 真阳性 
+该病的患病率  | 真阳性 
 ----:|------:
 1%   |  9.17%
 2%   |  16.95%
@@ -66,7 +66,7 @@
 ![90_3](https://raw.githubusercontent.com/Windsooon/What-Bayes-tell-us-/master/img/90_3.png)
 
 
-该病的病发率  | 真阳性 
+该病的患病率  | 真阳性 
 ----:|------:
 1%   |  23.26%
 2%   |  37.97%
@@ -112,7 +112,7 @@
 
 ![80_3](https://raw.githubusercontent.com/Windsooon/What-Bayes-tell-us-/master/img/80_3.png)
 
-该病的病发率  | 真阳性 
+该病的患病率  | 真阳性 
 ----:|------:
 1%   |  23.26%
 2%   |  37.97%
