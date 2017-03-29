@@ -34,15 +34,17 @@ class Fluid(object):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("-ns", type=float, default=0.9)
-    parser.add_argument("-s", type=float, default=0.09)
+    parser.add_argument("-ns", type=float, default=0.8)
+    parser.add_argument("-s", type=float, default=0.03)
     args = parser.parse_args()
 
     X = [x for x in range(100) if x % 3 == 0]
     Y = [round(Fluid(
         x, args.ns, args.s).calculate(), 2) for x in range(100) if x % 3 == 0]
 
+    print(Y)
+
 plt.plot(X, Y)
-plt.xlabel('the probability of true positive')
-plt.ylabel('the prevalence of this disease')
+plt.xlabel('the prevalence of this disease')
+plt.ylabel('the probability of true positive')
 plt.show()
