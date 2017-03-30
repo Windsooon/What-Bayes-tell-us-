@@ -154,4 +154,4 @@ the prevalence of this disease  | the probability of true positive
 
 ## Thank you 
 ### inspired by [Head First Data Analysis](https://www.amazon.com/Head-First-Data-Analysis-statistics/dp/0596153937)
-### @wanqic for translate to english version
+### @wanqic for englist translation
